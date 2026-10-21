@@ -147,23 +147,31 @@ window.PORTFOLIO_DATA = {
   },
 
   academic: {
-    teachingHours: 0,
-    teachingNote: "Update your real teaching hours and course records in assets/js/data.js.",
+    teachingHours: 179,
+    teachingNote: "Spanned across multi courses and different undergraduate classes",
     courses: [
       {
-        code: "COURSE 01",
-        title: "Add your first UTP course",
-        term: "Semester / year",
-        hours: 0,
-        summary: "Replace this demonstration entry with the course title, semester, teaching hours, responsibilities, labs/tutorials and topics you covered.",
+        code: "TFB3113",
+        title: "Data Mining",
+        semester: "May / 2026",
+        hours: 60,
+        summary: "Lab demonstration for 3rd year undergraduate students. This course covers the fundamental principles of data mining and data warehousing. It provides an algorithmic and application-driven perspective on extracting meaningful patterns from large data structures.",
         placeholder: true
       },
       {
-        code: "COURSE 02",
-        title: "Add another taught course",
-        term: "Semester / year",
-        hours: 0,
-        summary: "The accordion supports as many course records as you need. Each course can carry a concise teaching summary and its own hour count.",
+        code: "TEB3233 ",
+        title: "Computer Ethics and Cyber Law",
+        semester: "May / 2026",
+        hours: 30,
+        summary: "Tutorial Classes for 3rd year undergraduate students. This course examines the ethical issues surrounding computer usage and maps out the direct connection between ethics and modern technology.  It reviews definitions of computer ethics, professional responsibilities, and the basic principles of Malaysian law regarding cyber issues. Core topics include computer security, privacy, global information ethics, and intellectual property.",
+        placeholder: true
+      },
+       {
+        code: "TFB1023",
+        title: "Database Management System",
+        semester: "September / 2026",
+        hours: 89,
+        summary: "Lab demonstration for 1st year undergraduate students. Part of the Computing Core Discipline, this course covers the structural creation, standard manipulation, and storage architectures of corporate datasets. It introduces students to entity-relationship modeling, database lifecycle design, relational query constraints, and Structured Query Language (SQL) execution. It provides the data storage foundation required before students advance into higher-tier analytics tracks.",
         placeholder: true
       }
     ],

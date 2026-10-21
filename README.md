@@ -11,7 +11,7 @@ This revision keeps the visual theme from the first portfolio build and only bor
 - free-time.html — Writing & Photography
 - contact.html — Contact
 
-## Replace these images
+##  reminder for self: Replace these images
 - `assets/img/logo.png` — site logo and favicon
 - `assets/img/profile-bw.jpg` — black-and-white hero portrait
 - `assets/img/utp-logo.png` — UTP logo

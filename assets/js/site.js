@@ -177,7 +177,7 @@
         <button class="course-toggle" type="button" aria-expanded="false" aria-controls="course-panel-${i}">
           <span class="course-code">${course.code}</span><span class="course-title">${course.title}</span><span class="course-hours">${course.hours||0}h</span><span class="course-plus">+</span>
         </button>
-        <div class="course-panel" id="course-panel-${i}"><div class="course-panel-inner"><div><span class="mini-label">Term</span><p>${course.term}</p></div><div><span class="mini-label">About</span><p>${course.summary}</p></div></div></div>
+        <div class="course-panel" id="course-panel-${i}"><div class="course-panel-inner"><div><span class="mini-label">Semester</span><p>${course.semester}</p></div><div><span class="mini-label">About</span><p>${course.summary}</p></div></div></div>
       </article>`).join('');
     const real = academic.courses.filter(c=>!c.placeholder).length;
     if ($('#courseCount')) $('#courseCount').textContent = real ? `${real} course${real===1?'':'s'}` : 'Ready for your courses';

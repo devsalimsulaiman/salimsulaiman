@@ -946,7 +946,8 @@ img {
 .hours-value {
   font-size: clamp(100px, 14vw, 205px);
   line-height: .73;
-  letter-spacing: -.095em;
+  letter-spacing: -.06em;
+  /* -webkit-text-stroke: 2px #b2ffc9da; */
   font-weight: 850;
   color: var(--accent);
 }
@@ -2182,20 +2183,20 @@ html[data-theme="light"] .brand-logo {
 }
 
 .utp-logo-slot {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: auto;
   flex: 0 0 48px;
   border: 1px solid var(--line);
   border-radius: 12px;
-  background: color-mix(in srgb, var(--bg) 45%, transparent);
+  background: #FFFFFF;
   display: grid;
   place-items: center;
   overflow: hidden;
 }
 
 .utp-logo-slot img {
-  width: 82%;
-  height: 82%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
