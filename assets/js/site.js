@@ -105,7 +105,7 @@
 
   // Contact injection
   const c = DATA.contact || {};
-  $$('[data-location]').forEach(el => el.textContent = c.location || 'Perak, Malaysia');
+  $$('[data-location]').forEach(el => el.textContent = c.location || '⚲ Perak, Malaysia');
   $$('[data-phone]').forEach(el => { el.textContent = c.phone || '+601172236602'; if (el.tagName === 'A') el.href = `tel:${(c.phone||'').replace(/\s/g,'')}`; });
   $$('[data-email]').forEach(el => { el.textContent = c.email || ''; if (el.tagName === 'A') el.href = `mailto:${c.email||''}`; });
   $$('[data-github]').forEach(el => { if (c.github) el.href = c.github; });

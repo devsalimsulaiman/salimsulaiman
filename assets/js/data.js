@@ -8,7 +8,7 @@ window.PORTFOLIO_DATA = {
   developerStartYear: 2020,
 
   contact: {
-    location: "Perak, Malaysia",
+    location: "⚲ Perak, Malaysia",
     phone: "+601172236602",
     email: "devsalimsulaiman@gmail.com",
     github: "https://github.com/devsalimsulaiman",
@@ -17,6 +17,16 @@ window.PORTFOLIO_DATA = {
 
   projects: [
     {
+      title: "OpenCloud Technologies",
+      categories: ["frontend", "product"],
+      meta: ["Website", "Company", "Corporate", "Frontend"],
+      description: "A client corporate website for a Nigerian technology company delivering cloud-native infrastructure, RegTech compliance platforms, AgricTech value-chain tools and data intelligence — designed and built around their brand, content and conversion goals.",
+      tags: ["Responsive", "Corporate UI", "Multi-page"],
+      url: "https://opencloudtechnologiesltd.ng/",
+      linkLabel: "View live project",
+      image: "assets/img/opencloud.png"
+    },
+    {
       title: "KariyaPay",
       categories: ["product", "platform"],
       meta: ["FinTech", "Product"],
@@ -24,7 +34,7 @@ window.PORTFOLIO_DATA = {
       tags: ["Payments", "Escrow", "Web App"],
       url: "https://kariyapay.com",
       linkLabel: "View live project",
-      image: "https://salimsulaiman.vercel.app/assets/img/kariyapay.png"
+      image: "assets/img/kariyapay.png"
     },
     {
       title: "School Management System",
@@ -34,17 +44,27 @@ window.PORTFOLIO_DATA = {
       tags: ["AI", "Role-based", "SaaS"],
       url: "https://edumacro.com",
       linkLabel: "View live project",
-      image: "https://salimsulaiman.vercel.app/assets/img/edumacro.png"
+      image: "assets/img/edumacro.png"
     },
     {
       title: "MetroLabX",
       categories: ["frontend", "product"],
-      meta: ["Corporate", "Frontend"],
+      meta: ["Website", "Company", "Corporate", "Frontend"],
       description: "A fully responsive multi-page corporate site for a company spanning software development, AI integration and architecture solutions.",
       tags: ["Responsive", "Corporate UI", "Multi-page"],
-      url: "https://metrolabx.netlify.app",
+      url: "https://metrolabx.com",
       linkLabel: "View live project",
-      image: "https://salimsulaiman.vercel.app/assets/img/metrolabx.png"
+      image: "assets/img/metrolabx.png"
+    },
+    {
+      title: "Kuantarium Technologies",
+      categories: ["frontend", "product"],
+      meta: ["Website", "Company", "Corporate", "Frontend"],
+      description: "A fully responsive multi-page corporate site for a tech company spanning software development.",
+      tags: ["Responsive", "Corporate UI", "Multi-page"],
+      url: "https://kuantarium.com",
+      linkLabel: "View live project",
+      image: "assets/img/ktl.png"
     },
     {
       title: "Visitor Management System",
@@ -54,7 +74,17 @@ window.PORTFOLIO_DATA = {
       tags: ["UI/UX", "Conversion", "Responsive"],
       url: "https://visitavia.com",
       linkLabel: "View live project",
-      image: "https://salimsulaiman.vercel.app/assets/img/visitavia.png"
+      image: "assets/img/visitavia.png"
+    },
+    {
+      title: "Rabbit Farm Management System",
+      categories: ["mobile", "product", "platform"],
+      meta: ["AgriTech", "Mobile + Backend"],
+      description: "A cross-platform farm management app for rabbit breeders, built with Ionic Angular and Capacitor for Android, featuring local notifications, on-device preferences and ApexCharts analytics, backed by an Express + MongoDB API with JWT authentication, helmet security and Joi-validated payloads.",
+      tags: ["Ionic", "Angular", "Capacitor", "Express", "MongoDB"],
+      url: "mailto:info@metrolabx.com",
+      linkLabel: "Request Demo",
+      image: "assets/img/rabbit-app.jpg"
     },
     {
       title: "Macathie — Buyers",
@@ -64,7 +94,7 @@ window.PORTFOLIO_DATA = {
       tags: ["Angular", "APIs", "Commerce"],
       url: "https://macathie.com",
       linkLabel: "View live project",
-      image: "https://salimsulaiman.vercel.app/assets/img/portfolio5.jpeg"
+      image: "assets/img/macathie.png"
     },
     {
       title: "Community-led Monitoring Platform",
@@ -74,7 +104,7 @@ window.PORTFOLIO_DATA = {
       tags: ["Analytics", "API", "Dashboard"],
       url: "https://clm.mohsdwb.com",
       linkLabel: "View live project",
-      image: "https://salimsulaiman.vercel.app/assets/img/portfolio1.jpeg"
+      image: "assets/img/clm.jpeg"
     },
     {
       title: "Multilingual Web App",
@@ -84,7 +114,7 @@ window.PORTFOLIO_DATA = {
       tags: ["i18n", "Arabic", "French"],
       url: "https://github.com/devsalimsulaiman/i18n",
       linkLabel: "View repository",
-      image: "https://salimsulaiman.vercel.app/assets/img/portfolio-i18n.jpeg"
+      image: "assets/img/portfolio-i18n.jpeg"
     },
     {
       title: "Macathie — Vendors",
@@ -94,7 +124,7 @@ window.PORTFOLIO_DATA = {
       tags: ["Inventory", "Dashboards", "API"],
       url: "https://vendor.macathie.com",
       linkLabel: "View live project",
-      image: "https://salimsulaiman.vercel.app/assets/img/portfolio3.jpeg"
+      image: "assets/img/vendors.jpeg"
     },
     {
       title: "Handwriting Recognition",
@@ -104,7 +134,7 @@ window.PORTFOLIO_DATA = {
       tags: ["Python", "TensorFlow", "MNIST"],
       url: "https://github.com/devsalimsulaiman/Handwritten-Digit-Recognition-with-TensorFlow",
       linkLabel: "View repository",
-      image: "https://salimsulaiman.vercel.app/assets/img/portfolio4.jpeg"
+      image: "assets/img/handwriting.jpeg"
     }
   ],
 
