@@ -16,6 +16,24 @@ window.PORTFOLIO_DATA = {
   },
 
   projects: [
+    
+{
+  title: "Fifi & Lili — Restaurant Platform",
+  categories: ["frontend", "product", "platform"],
+  meta: ["Restaurant", "Online Ordering", "Reservations", "UI/UX"],
+  description: "A premium, responsive multi-page restaurant website featuring categorized menus, food search and filtering, grid/list views, detailed food pages, and an interactive shopping bag. Includes experiences for QR table ordering, online pickup and nationwide delivery, space reservations, birthday celebrations, wedding proposal surprises, virtual queue management, customer loyalty rewards, and secure checkout interfaces.",
+  tags: [
+    "Responsive UI",
+    "Bootstrap",
+    "JavaScript",
+    "Online Ordering",
+    "Reservations",
+    "Customer Loyalty"
+  ],
+  url: "https://fifi-and-lili.netlify.app/",
+  linkLabel: "View live project",
+  image: "assets/img/fifi-lili.png"
+},
     {
       title: "OpenCloud Technologies",
       categories: ["frontend", "product"],
