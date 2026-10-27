@@ -16,24 +16,25 @@ window.PORTFOLIO_DATA = {
   },
 
   projects: [
-    
-{
-  title: "Fifi & Lili — Restaurant Platform",
-  categories: ["frontend", "product", "platform"],
-  meta: ["Restaurant", "Online Ordering", "Reservations", "UI/UX"],
-  description: "A premium, responsive multi-page restaurant website featuring categorized menus, food search and filtering, grid/list views, detailed food pages, and an interactive shopping bag. Includes experiences for QR table ordering, online pickup and nationwide delivery, space reservations, birthday celebrations, wedding proposal surprises, virtual queue management, customer loyalty rewards, and secure checkout interfaces.",
-  tags: [
-    "Responsive UI",
-    "Bootstrap",
-    "JavaScript",
-    "Online Ordering",
-    "Reservations",
-    "Customer Loyalty"
-  ],
-  url: "https://fifi-and-lili.netlify.app/",
-  linkLabel: "View live project",
-  image: "assets/img/fifi-lili.png"
-},
+
+    {
+      title: "Fifi & Lili — Restaurant Platform",
+      categories: ["frontend", "product", "platform"],
+      meta: ["Restaurant", "Online Ordering", "Reservations", "UI/UX"],
+      description: "A premium, responsive multi-page restaurant website featuring categorized menus, food search and filtering, grid/list views, detailed food pages, and an interactive shopping bag. Includes experiences for QR table ordering, online pickup and nationwide delivery, space reservations, birthday celebrations, wedding proposal surprises, virtual queue management, customer loyalty rewards, and secure checkout interfaces.",
+      tags: [
+        "Responsive UI",
+        "Bootstrap",
+        "JavaScript",
+        "Online Ordering",
+        "Reservations",
+        "Customer Loyalty"
+      ],
+      url: "https://fifi-and-lili.netlify.app/",
+      linkLabel: "View live project",
+      image: "assets/img/fifi-lili.png"
+    },
+
     {
       title: "OpenCloud Technologies",
       categories: ["frontend", "product"],
@@ -165,7 +166,9 @@ window.PORTFOLIO_DATA = {
   },
 
   academic: {
-    teachingHours: 179,
+    get teachingHours() {
+      return this.courses.reduce((sum, course) => sum + (course.hours || 0), 0);
+    },
     teachingNote: "Spanned across multi courses and different undergraduate classes",
     courses: [
       {
@@ -184,11 +187,11 @@ window.PORTFOLIO_DATA = {
         summary: "Tutorial Classes for 3rd year undergraduate students. This course examines the ethical issues surrounding computer usage and maps out the direct connection between ethics and modern technology.  It reviews definitions of computer ethics, professional responsibilities, and the basic principles of Malaysian law regarding cyber issues. Core topics include computer security, privacy, global information ethics, and intellectual property.",
         placeholder: true
       },
-       {
+      {
         code: "TFB1023",
         title: "Database Management System",
         semester: "September / 2026",
-        hours: 89,
+        hours: 101,
         summary: "Lab demonstration for 1st year undergraduate students. Part of the Computing Core Discipline, this course covers the structural creation, standard manipulation, and storage architectures of corporate datasets. It introduces students to entity-relationship modeling, database lifecycle design, relational query constraints, and Structured Query Language (SQL) execution. It provides the data storage foundation required before students advance into higher-tier analytics tracks.",
         placeholder: true
       }
