@@ -45,6 +45,25 @@ window.PORTFOLIO_DATA = {
       linkLabel: "View live project",
       image: "assets/img/opencloud.png"
     },
+
+    {
+  title: "Metro & Homes — Honest Home Goods",
+  categories: ["frontend", "product", "e-commerce"],
+  meta: ["Home Goods", "Furniture & Decor", "Online Shopping", "UI/UX"],
+  description: "A premium, responsive multi-page e-commerce website for handmade, small-batch home goods featuring category browsing by room and ritual, product filtration across furniture, ceramics, textiles, and lighting, and a dynamic side-cart drawer mechanism. Includes comprehensive client experiences for seamless online order placement, secure payment checkouts, interactive customer review sections, promotion code application, and detailed order tracking workflows.",
+  tags: [
+    "Responsive UI",
+    "Tailwind CSS",
+    "JavaScript",
+    "E-commerce",
+    "Shopping Bag Flow",
+    "Order Tracking"
+  ],
+  url: "https://metro-and-homes.netlify.app/",
+  linkLabel: "View live project",
+  image: "assets/img/metro-homes.png"
+},
+
     {
       title: "KariyaPay",
       categories: ["product", "platform"],
